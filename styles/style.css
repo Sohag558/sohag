@@ -18,7 +18,7 @@ html {
     background-position: center;
     background-attachment: fixed;
     margin: 0;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 #home {
@@ -179,3 +179,21 @@ html {
 }
 
 /* about me style gose here */
+.slide-right, .slide-left {
+    width: 100%;
+  }
+  
+  /***** Slide Right *****/
+  .slide-right {
+    animation: 3s slide-right;
+  }
+
+  @keyframes slide-right {
+    from {
+      margin-left: -100%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+  
